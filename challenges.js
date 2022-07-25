@@ -29,12 +29,14 @@ Write a function called addOne that takes a single number as an argument and ret
 
 Examples:
 
-addOne(1) //=> 2
+
 addOne(-5) //=> -4
 -----------------------------------------------------------------*/
 // Your solution for 01-addOne here:
-
-
+function addOne(num) {
+  return num + 1;
+}
+console.log(addOne(11))
 
 
 
